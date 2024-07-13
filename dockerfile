@@ -3,4 +3,4 @@ WORKDIR brandnewgame
 COPY package*.json /.
 COPY . .
 EXPOSE 2300
-CMD [ "npm", "start"]
+CMD [ "node", "app.js"]
