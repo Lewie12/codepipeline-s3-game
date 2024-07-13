@@ -2,7 +2,7 @@
 FROM node:18.16.0-alpine3.17
 
 # Set the working directory in the container
-WORKDIR /brandnewgame/codepipeline-s3-game
+WORKDIR /brandnewgame/codepipeline-s3-game.script.js
 
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
